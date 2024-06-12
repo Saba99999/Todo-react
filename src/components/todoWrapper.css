@@ -1,0 +1,40 @@
+
+
+h1{
+    color: var(--text-color);
+}
+
+.Conteiner{
+    display: flex;
+    max-width: 750px;
+    width: 100%;
+    flex-direction: column;
+    min-height: 100vh;
+    overflow: hidden;
+    background-color: var(--background-color);
+}
+
+.add-btn{
+    position: fixed;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    color: white;
+    text-align: center;
+    border: none;
+    background-color: var(--button-color);
+    font-size: 24px;
+    margin-top: 506px;
+    right: 25%;
+    z-index: 1000;
+    transition: 0.3s;
+}
+
+.add-btn:hover{
+    width: 53px;
+    height: 53px;
+    transition: 0.3s;
+}
+.todoform-btn{
+    display: flex;
+}

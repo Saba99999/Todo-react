@@ -1,0 +1,33 @@
+:root{
+  --background-color: #F7F7F7;
+  --text-color: #252525;
+  --button-color: #6C63FF;
+  --serch-note:#6C63FF;
+}
+
+[data-theme="dark"]{
+  --background-color: #252525;
+  --text-color:#F7F7F7;
+  --button-color:#534CC2;
+  --serch-note:#252525;
+}
+
+
+#root {
+  position: relative;
+  display: flex;
+  width: 100%;
+  margin: 0 ;
+  padding: 0;
+  text-align: center;
+  justify-content: center;
+}
+
+.main{
+  display: flex;
+  height: 100vh;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--background-color);
+}
